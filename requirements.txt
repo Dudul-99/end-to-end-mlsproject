@@ -5,4 +5,5 @@ xgboost
 seaborn
 Flask
 loguru
+dill
 -e .
