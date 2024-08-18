@@ -47,6 +47,11 @@ def predict_datapoint():
             logger.error(f'An error occurred during prediction: {str(e)}')
             return render_template('home.html', error="An error occurred during prediction.")
 
+'''
+This is the port 
+http://localhost:5001/predictdata
+, debug=True
+'''
 if __name__ == "__main__":
     logger.info('Flask app is starting')
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5001)
