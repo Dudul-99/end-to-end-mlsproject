@@ -125,8 +125,8 @@ class DataTransformation:
 '''
  Test the data transformation component
 if __name__ == "__main__":
-    train_data = "/Users/abdul/Documents/end-to-end-mlsproject/artifacts/train.csv"  # Replace with the actual path to the train data file
-    test_data = "/Users/abdul/Documents/end-to-end-mlsproject/artifacts/test.csv"  # Replace with the actual path to the test data file
+    train_data = "/Users/abdul/Documents/end-to-end-mlsproject/artifacts/train.csv"  
+    test_data = "/Users/abdul/Documents/end-to-end-mlsproject/artifacts/test.csv" 
 
     data_transformation = DataTransformation()
     train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data, test_data)
