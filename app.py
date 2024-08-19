@@ -5,6 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.train_pipeline import CustomData, PredictPipeline
 from src.logger import logger  # Importez votre logger ici
 
+
+
 application = Flask(__name__)
 app = application
 
