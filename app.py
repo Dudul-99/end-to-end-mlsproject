@@ -7,7 +7,6 @@ from src.logger import logger  # Importez votre logger ici
 
 
 
-
 application = Flask(__name__)
 app = application
 
